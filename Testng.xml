@@ -2,7 +2,7 @@
 <suite name="Registration Suite" >
   <test name="Test">
     <classes>
-      <class name="Taf.PageRegisteration"/>
+      <class name="Tests.PageResgisterationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

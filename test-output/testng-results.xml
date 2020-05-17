@@ -1,112 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4927" started-at="2020-05-14T21:32:37Z" finished-at="2020-05-14T21:32:41Z">
+  <suite name="Registration Suite" duration-ms="7270" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:48Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1ce92674]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="4927" started-at="2020-05-14T21:32:37Z" finished-at="2020-05-14T21:32:41Z">
-      <class name="runner.TestRunner">
-        <test-method status="PASS" signature="StartDriver()[pri:0, instance:runner.TestRunner@1ce92674]" name="StartDriver" is-config="true" duration-ms="9686" started-at="2020-05-14T21:32:27Z" finished-at="2020-05-14T21:32:37Z">
+    <test name="Test" duration-ms="7270" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:48Z">
+      <class name="Tests.PageResgisterationTest">
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="StartDriver" is-config="true" duration-ms="8670" started-at="2020-05-17T16:24:33Z" finished-at="2020-05-17T16:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="272" started-at="2020-05-14T21:32:37Z" finished-at="2020-05-14T21:32:37Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="setUpClass" is-config="true" duration-ms="96" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="SKIP" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1ce92674]" name="runScenario" duration-ms="4563" started-at="2020-05-14T21:32:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-14T21:32:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["UserRegistration"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["UserRegistration"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step "the registration page displayed" is undefined. You can implement it using the snippet(s) below:
-
-@Then("the registration page displayed")
-public void the_registration_page_displayed() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step "the registration page displayed" is undefined. You can implement it using the snippet(s) below:
-
-@Then("the registration page displayed")
-public void the_registration_page_displayed() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at io.cucumber.testng.TestCaseResultObserver.lambda$assertTestCasePassed$2(TestCaseResultObserver.java:26)
-at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:110)
-at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:21)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully()[pri:1, instance:Tests.PageResgisterationTest@598067a5]" name="UserCanRegisterSuccessfully" duration-ms="4016" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:runner.TestRunner@1ce92674]" name="screenshotonfailure" is-config="true" duration-ms="1" started-at="2020-05-14T21:32:41Z" finished-at="2020-05-14T21:32:41Z">
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="2" started-at="2020-05-17T16:24:45Z" finished-at="2020-05-17T16:24:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=runScenario status=SKIP method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1ce92674] output={null}]]]>
+                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=PageResgisterationTest.UserCanRegisterSuccessfully()[pri:1, instance:Tests.PageResgisterationTest@598067a5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonfailure -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="64" started-at="2020-05-14T21:32:41Z" finished-at="2020-05-14T21:32:41Z">
+        <test-method status="PASS" signature="Userlogout()[pri:2, instance:Tests.PageResgisterationTest@598067a5]" name="Userlogout" duration-ms="1573" started-at="2020-05-17T16:24:45Z" finished-at="2020-05-17T16:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Userlogout -->
+        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="0" started-at="2020-05-17T16:24:47Z" finished-at="2020-05-17T16:24:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Userlogout status=SUCCESS method=PageResgisterationTest.Userlogout()[pri:2, instance:Tests.PageResgisterationTest@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method status="PASS" signature="userlogin()[pri:3, instance:Tests.PageResgisterationTest@598067a5]" name="userlogin" duration-ms="1553" started-at="2020-05-17T16:24:47Z" finished-at="2020-05-17T16:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="0" started-at="2020-05-17T16:24:48Z" finished-at="2020-05-17T16:24:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userlogin status=SUCCESS method=PageResgisterationTest.userlogin()[pri:3, instance:Tests.PageResgisterationTest@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-05-17T16:24:48Z" finished-at="2020-05-17T16:24:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:runner.TestRunner@1ce92674]" name="StopDriver" is-config="true" duration-ms="0" started-at="2020-05-14T21:32:41Z" finished-at="2020-05-14T21:32:41Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="StopDriver" is-config="true" duration-ms="1" started-at="2020-05-17T16:24:48Z" finished-at="2020-05-17T16:24:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
-      </class> <!-- runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Tests.PageResgisterationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Registration Suite -->
 </testng-results>

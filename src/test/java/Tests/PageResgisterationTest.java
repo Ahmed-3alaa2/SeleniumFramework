@@ -17,7 +17,7 @@ public class PageResgisterationTest extends TestBase {
 		homeobject = new HomePage(driver); 
 		homeobject.OpenRegistrationPage();
 		Registerobject = new PageRegisteration(driver);
-		Registerobject.userRegistration("Ahmed", "Alaa", "ahmed_ala02@hotmail.com", "Qwer1234", "Qwer1234");
+		Registerobject.userRegistration("Ahmed", "Alaa", "ahmed_ala04402@hotmail.com", "Qwer1234", "Qwer1234");
 		
 	}
 	
@@ -28,7 +28,7 @@ public class PageResgisterationTest extends TestBase {
 		homeobject = new HomePage(driver);
 		homeobject.LoginPage();
 		loginpage = new LoginPage(driver);
-		loginpage.userlogin("ahmed_ala02@hotmail.com", "Qwer1234");
+		loginpage.userlogin("ahmed_ala002@hotmail.com", "Qwer1234");
 		
 		
 	}
