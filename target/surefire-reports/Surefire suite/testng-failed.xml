@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="screenshotonfailure"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="StartDriver"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+      <class name="Tests.PageResgisterationTest">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="userlogin"/>
+          <include name="screenshotonfailure"/>
+          <include name="Userlogout"/>
+          <include name="StartDriver"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Tests.PageResgisterationTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
