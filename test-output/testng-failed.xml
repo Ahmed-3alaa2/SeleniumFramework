@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Registration Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="runner.TestRunner">
+      <class name="Tests.PageResgisterationTest">
         <methods>
           <include name="StopDriver"/>
+          <include name="userlogin"/>
           <include name="screenshotonfailure"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="Userlogout"/>
           <include name="StartDriver"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- runner.TestRunner -->
+      </class> <!-- Tests.PageResgisterationTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Registration Suite] -->

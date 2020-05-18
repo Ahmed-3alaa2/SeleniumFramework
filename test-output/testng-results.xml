@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Registration Suite" duration-ms="7270" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:48Z">
+  <suite name="Registration Suite" duration-ms="8250" started-at="2020-05-17T23:38:23Z" finished-at="2020-05-17T23:38:32Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="7270" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:48Z">
+    <test name="Test" duration-ms="8250" started-at="2020-05-17T23:38:23Z" finished-at="2020-05-17T23:38:32Z">
       <class name="Tests.PageResgisterationTest">
-        <test-method status="PASS" signature="StartDriver()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="StartDriver" is-config="true" duration-ms="8670" started-at="2020-05-17T16:24:33Z" finished-at="2020-05-17T16:24:41Z">
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="StartDriver" is-config="true" duration-ms="8587" started-at="2020-05-17T23:38:15Z" finished-at="2020-05-17T23:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartDriver -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="setUpClass" is-config="true" duration-ms="96" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:41Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="setUpClass" is-config="true" duration-ms="95" started-at="2020-05-17T23:38:23Z" finished-at="2020-05-17T23:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="UserCanRegisterSuccessfully()[pri:1, instance:Tests.PageResgisterationTest@598067a5]" name="UserCanRegisterSuccessfully" duration-ms="4016" started-at="2020-05-17T16:24:41Z" finished-at="2020-05-17T16:24:45Z">
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully()[pri:1, instance:Tests.PageResgisterationTest@598067a5]" name="UserCanRegisterSuccessfully" duration-ms="4552" started-at="2020-05-17T23:38:23Z" finished-at="2020-05-17T23:38:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanRegisterSuccessfully -->
-        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="2" started-at="2020-05-17T16:24:45Z" finished-at="2020-05-17T16:24:45Z">
+        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="2" started-at="2020-05-17T23:38:28Z" finished-at="2020-05-17T23:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +33,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonfailure -->
-        <test-method status="PASS" signature="Userlogout()[pri:2, instance:Tests.PageResgisterationTest@598067a5]" name="Userlogout" duration-ms="1573" started-at="2020-05-17T16:24:45Z" finished-at="2020-05-17T16:24:47Z">
+        <test-method status="PASS" signature="Userlogout()[pri:2, instance:Tests.PageResgisterationTest@598067a5]" name="Userlogout" duration-ms="1683" started-at="2020-05-17T23:38:28Z" finished-at="2020-05-17T23:38:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Userlogout -->
-        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="0" started-at="2020-05-17T16:24:47Z" finished-at="2020-05-17T16:24:47Z">
+        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="0" started-at="2020-05-17T23:38:30Z" finished-at="2020-05-17T23:38:30Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonfailure -->
-        <test-method status="PASS" signature="userlogin()[pri:3, instance:Tests.PageResgisterationTest@598067a5]" name="userlogin" duration-ms="1553" started-at="2020-05-17T16:24:47Z" finished-at="2020-05-17T16:24:48Z">
+        <test-method status="PASS" signature="userlogin()[pri:3, instance:Tests.PageResgisterationTest@598067a5]" name="userlogin" duration-ms="1877" started-at="2020-05-17T23:38:30Z" finished-at="2020-05-17T23:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userlogin -->
-        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="0" started-at="2020-05-17T16:24:48Z" finished-at="2020-05-17T16:24:48Z">
+        <test-method status="PASS" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="screenshotonfailure" is-config="true" duration-ms="0" started-at="2020-05-17T23:38:32Z" finished-at="2020-05-17T23:38:32Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotonfailure -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-05-17T16:24:48Z" finished-at="2020-05-17T16:24:48Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2020-05-17T23:38:32Z" finished-at="2020-05-17T23:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="StopDriver()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="StopDriver" is-config="true" duration-ms="1" started-at="2020-05-17T16:24:48Z" finished-at="2020-05-17T16:24:48Z">
+        <test-method status="PASS" signature="StopDriver()[pri:0, instance:Tests.PageResgisterationTest@598067a5]" name="StopDriver" is-config="true" duration-ms="0" started-at="2020-05-17T23:38:32Z" finished-at="2020-05-17T23:38:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopDriver -->
